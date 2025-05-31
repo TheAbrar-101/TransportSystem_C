@@ -61,6 +61,7 @@ void submitFeedback(struct Student s)
     getchar();
     fgets(feedback,200,stdin);
     printf("Thank you, %s! Your feedback has been recorded.\n", s.name);
+    printf("Your feedback is \" %s \" ",feedback);
 }
 
 int main()
